@@ -1,511 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
-body{
-    margin:0;
-    background-color:#ac5220;
-}
-.div{
-    background-image: url(images/Union.png);
-    color:black;
-    background-size: contain;
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.h1{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:white;
-    margin: 50px;
-    font-size: 30px;
-    top: 50px;
-}
-.p1{
-    position: relative;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    margin: 50px;
-    font-size: 15px;
-    top: 20px;
-}
-.p2{
-    position: relative;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    margin: 50px;
-    font-size: 15px;
-    bottom: 30px;
-}
-.pustota{
-    width: 100px;
-    height: 200px;
-}
-header{
-    background-color:black;
-    height: 50px;
-}
-header a{
-    text-decoration: none;
-    color:white;
-    margin: 35px;
-    font-size:30px;
-}
-header>*{
-    display:inline-block;
-}
-.div1{
-    background-image: url(images/Left\ Panel.png);
-    width: 1200px;
-    height: 1600px;
-    color:white;
-    background-size: contain;
-    margin: auto;
-}
-.p3{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:#1400FF;
-    margin: 50px;
-    font-size: 144px;
-    top: 50px;
-}
-.h2{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 50px;
-    bottom: 290px;
-}
-.p4{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 20px;
-    bottom: 450px;
-}
-.div2{
-    background-image: url(images/Merc.png);
-    position: relative;
-    bottom: 620px;
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    width: 817px;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.h3{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    margin: 40px;
-    top: 40px;
-    font-size: 20px;
-}
-.p5{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    bottom: 30px;
-    margin: 40px;
-    font-size: 14px;
-}
-.h4{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    margin: 40px;
-    right: 376px;
-    top: 40px;
-    font-size: 14px;
-}
-.img{
-    position: relative;
-    right: 80px;
-    bottom: 10px;
-    width: 200px;
-    height: 160px;
-}
-.div3{
-    background-image: url(images/Merc\ 2.png);
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    bottom: 800px;
-    width: 817px;
-    height: 500px;
-    position: relative;
-    background-repeat: no-repeat;
-}
-.h5{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    top: 20px;
-}
-.p6{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 20px;
-}
-.img1{
-    position: relative;
-    right: 30px;
-    bottom: 10px;
-    width: 200px;
-    height: 160px;
-}
-.div4{
-    background-image: url(images/Merc\ 3.png);
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    bottom: 900px;
-    width: 817px;
-    height: 500px;
-    position: relative;
-    background-repeat: no-repeat;
-}
-.h6{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    top: 20px;
-}
-.p7{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 40px;
-}
-.img2{
-    position: relative;
-    right: 30px;
-    bottom: 10px;
-    width: 200px;
-    height: 150px;
-}
-.div5{
-    background-image: url(images/Left\ Panel.png);
-    width: 1200px;
-    height: 1400px;
-    color:white;
-    background-size: contain;
-    margin: auto;
-}
-.p8{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:#1400FF;
-    margin: 50px;
-    font-size: 144px;
-    top: 50px;
-}
-.h7{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 50px;
-    bottom: 290px;
-}
-.p9{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 20px;
-    bottom: 450px;
-}
-.div6{
-    background-image: url(images/Maybach.png);
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    bottom: 500px;
-    width: 782px;
-    height: 900px;
-    position: relative;
-    background-repeat: no-repeat;
-}
-.h8{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    margin: 40px;
-    top: 20px;
-    font-size: 20px;
-}
-.p10{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: #00000099;
-    margin: 40px;
-    bottom: 20px;
-    font-size: 10px;
-}
-.p11{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 100px;
-    font-size: 14px;
-}
-.img3{
-    position: relative;
-    right: 30px;
-    width: 220px;
-    height: 100px;
-    bottom: 90px;
-}
-.img4{
-    position: relative;
-    bottom: 165px;
-    margin: 40px;
-    width: 710px;
-    height: 1px;
-    color: #e5e5e5;
-}
-.p12{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 230px;
-    font-size: 14px;
-}
-.img5{
-    position: relative;
-    right: 30px;
-    width: 300px;
-    height: 80px;
-    bottom: 200px;
-}
-.img6{
-    position: relative;
-    bottom: 270px;
-    margin: 40px;
-    width: 710px;
-    height: 1px;
-    color: #e5e5e5;
-}
-.p13{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 350px;
-    font-size: 14px;
-}
-.img7{
-    position: relative;
-    right: 30px;
-    width: 500px;
-    height: 80px;
-    bottom: 300px;
-}
-.img8{
-    position: relative;
-    bottom: 400px;
-    margin: 40px;
-    width: 710px;
-    height: 1px;
-    color: #e5e5e5;
-}
-.p14{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 480px;
-    font-size: 14px;
-}
-.img9{
-    position: relative;
-    right: 30px;
-    width: 630px;
-    height: 70px;
-    bottom: 440px;
-}
-.img10{
-    position: relative;
-    bottom: 550px;
-    margin: 40px;
-    width: 710px;
-    height: 1px;
-    color: #e5e5e5;
-}
-.p15{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    color: black;
-    margin: 40px;
-    bottom: 630px;
-    font-size: 14px; 
-}
-.img11{
-    position: relative;
-    right: 30px;
-    width: 148px;
-    height: 90px;
-    bottom: 580px; 
-}
-.mini{
-    display: flex;
-    top: 30px;
-}
-.mini1{
-    display: flex;
-    top:30px;
-}
-.mini2{
-    display: flex;
-    top:30px;
-}
-.mini3{
-    display: flex;
-    top:30px;
-}
-.mini4{
-    display: flex;
-    top:30px;
-}
-.mini5{
-    display: flex;
-    top:30px;
-}
-.mini6{
-    display:flex;
-    top:30px;
-}
-.mini7{
-    display: flex;
-    top:30px;
-}
-.p16{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:#1400FF;
-    margin: 50px;
-    font-size: 144px;
-    top: 50px;
-}
-.div7{
-    background-image: url(images/Left\ Panel.png);
-    width: 1200px;
-    height: 1400px;
-    color:white;
-    background-size: contain;
-    margin: auto;
-}
-.h9{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 50px;
-    bottom: 290px;
-}
-.p17{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 190px;
-    font-size: 20px;
-    bottom: 450px;
-}
-.mini8{
-    display:flex;
-}
-.h10{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    margin: 190px;
-    color: black;
-    bottom: 600px;
-}
-.p18{
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    margin: 190px;
-    color: black;
-    bottom: 960px;
-}
-.div8{
-    background-image: url(images/Lambo\ Urus.png);
-    position: relative;
-    bottom: 1050px;
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    width: 817px;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.h11{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    margin: 40px;
-    top: 30px;
-    font-size: 20px;
-}
-.p19{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 40px;
-    bottom: 10px;
-    font-size: 14px;
-}
-.img12{
-    position: relative;
-    width: 299px;
-    height: 238px;
-    right: 30px;
-    bottom: 20px;
-}
-.mini9{
-    display: flex;
-}
-.div9{
-    background-image: url(images/Interior\,Comfort\ and\ Cargo.png);
-    color: whitesmoke;
-    background-size: contain;
-    margin: auto;
-    width: 1100px;
-    height: 600px;
-    background-repeat: no-repeat;
-}
-.h12{
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    margin: 40px;
-    top: 60px;
-    font-size: 20px;
-}
-.p20{
-    font-family: 'Inter', sans-serif;
-    color:black;
-    margin: 40px;
-    width: 38%;
-    font-size: 14px;
-}
-.img13{
-    width: 330px;
-    height: 238px;
-    right: 160px;
-    bottom: 20px;
-}
-.mini10{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  background-color: #ac5220;
+}
+.div {
+  background-image: url(images/Union.png);
+  color: black;
+  background-size: contain;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.h1 {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin: 50px;
+  font-size: 30px;
+  top: 50px;
+}
+.p1 {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+  font-size: 15px;
+  top: 20px;
+}
+.p2 {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+  font-size: 15px;
+  bottom: 30px;
+}
+.pustota {
+  width: 100px;
+  height: 200px;
+}
+header {
+  background-color: black;
+  height: 50px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin: 35px;
+  font-size: 30px;
+}
+header:hover {
+  margin-top: 100px;
+  border-top: 5px darkblue dashed;
+}
+header > * {
+  display: inline-block;
+}
+.primer {
+  background-color: #ffffff;
+  width: 70%;
+  margin: auto;
+  padding: 10px 50px;
+  margin-left: 50px;
+}
+
+.primer img {
+  width: 250px;
+  height: 150px;
+}
+
+.p3 {
+  font-family: "Inter", sans-serif;
+  color: #1400ff;
+  margin: 50px;
+  font-size: 144px;
+  top: 50px;
+}
+
+.contener {
+  display: flex;
+  align-items: center;
+}
+
+.background1 {
+  background-color: #e5e5e5;
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.background2 {
+  background-color: #e5e5e5;
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.background3 {
+  background-color: #e5e5e5;
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.background4 {
+  background-color: #e5e5e5;
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.otstup {
+  margin-bottom: 50px;
+}
+.primer1 {
+  width: 70%;
+  margin: auto;
+  margin: 50px;
+}
+.contener > h1 {
+  font-size: 40px;
+}
+.primer1 > p {
+  font-size: 20px;
+}
+.contener h1,
+.contener p {
+  width: 70%;
+}
+.otstup h1 {
+  font-size: 40px;
+}
+.otstup p {
+  font-size: 20px;
+}
+.primer .divider {
+  height: 1px;
+  width: 100%;
+}
+.primer2 {
+  background-color: #ffffff;
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+  margin: 50px;
+}
+.primer2 img {
+  width: 360px;
+  height: 250px;
+}
+.primer3 {
+  width: 87%;
+  margin: auto;
+  margin: 50px;
+}
+.primer4 {
+  width: 70%;
+  margin: auto;
+  margin: 50px;
+  height: 130px;
+}
+.primer4 h1 {
+  height: 10px;
+}
+.primer3 h1 {
+  height: 10px;
+}
+.p4 {
+  font-size: 24px;
 }
